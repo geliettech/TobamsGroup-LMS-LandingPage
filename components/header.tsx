@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-muted">
+    <header className="bg-background">
       {/* Top Header */}
       <div className="w-full border-b border-border">
         <div
@@ -50,7 +50,7 @@ const Header = () => {
             <Button
               className={cn("h-11 rounded-lg", "w-36", "lg:h-12 lg:w-41.75")}
             >
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-background">
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-muted">
                 <User className="h-3 w-4 text-primary" />
               </div>
 
@@ -62,7 +62,7 @@ const Header = () => {
             <Button
               variant="secondary"
               className={cn(
-                "h-11 rounded-lg border h6 text-muted",
+                "h-11 rounded-lg border h6 text-background",
                 "w-36",
                 "lg:h-12 lg:w-41.75",
               )}
@@ -75,7 +75,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden bg-foreground text-muted"
+            className="md:hidden bg-foreground text-background"
             onClick={() => {
               setMobileMenuOpen((prev) => !prev);
               setMobileDropdown(null);
@@ -143,7 +143,7 @@ const Header = () => {
                 {/* Desktop Dropdown */}
                 {hasDropdown && openDropdown === item.label && (
                   <div className="absolute left-0 top-full z-50 w-52 pt-2">
-                    <div className="rounded-xl border bg-muted p-1.5 shadow-lg">
+                    <div className="rounded-xl border bg-background p-1.5 shadow-lg">
                       {item.dropdown?.map((dropdownItem) => {
                         const dropdownActive = isActive(dropdownItem.href);
 
@@ -156,7 +156,7 @@ const Header = () => {
                               "transition-colors",
                               dropdownActive
                                 ? "bg-primary/10 text-primary"
-                                : "text-muted-foreground hover:bg-muted hover:text-foreground",
+                                : "text-foreground/60 hover:bg-background hover:text-foreground",
                             )}
                           >
                             {dropdownItem.label}
@@ -218,7 +218,7 @@ const Header = () => {
 
                     {/* Mobile Dropdown */}
                     {hasDropdown && dropdownOpen && (
-                      <div className="mb-3 ml-3 flex flex-col rounded-lg bg-background p-1.5">
+                      <div className="mb-3 ml-3 flex flex-col rounded-lg bg-muted p-1.5">
                         {item.dropdown?.map((dropdownItem) => {
                           const dropdownActive = isActive(dropdownItem.href);
 
@@ -231,7 +231,7 @@ const Header = () => {
                                 "rounded-lg px-3 py-3 text-sm",
                                 dropdownActive
                                   ? "bg-primary/10 text-primary"
-                                  : "text-muted-foreground hover:bg-muted hover:text-foreground",
+                                  : "text-foreground/50 hover:bg-background hover:text-foreground",
                               )}
                             >
                               {dropdownItem.label}
@@ -248,7 +248,7 @@ const Header = () => {
             {/* Mobile Actions */}
             <div className="flex flex-col gap-3 pt-5 sm:flex-row">
               <Button className="h-12 w-full rounded-lg sm:flex-1">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-background">
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-muted">
                   <User className="h-3 w-4 text-primary" />
                 </div>
 
@@ -259,7 +259,7 @@ const Header = () => {
 
               <Button
                 variant="secondary"
-                className="h-12 w-full rounded-lg border h6 text-muted sm:flex-1"
+                className="h-12 w-full rounded-lg border h6 text-background sm:flex-1"
               >
                 Take Assessment
               </Button>
