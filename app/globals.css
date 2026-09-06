@@ -96,7 +96,11 @@
   .base {
     @apply font-normal text-[14px] md:text-[16px] leading-[150%];
   }
+  
   .base-semibold {
-    @apply font-semibold text-[14px] leading-[150%];
+    @apply font-semibold text-[14px] md:text-[16px] leading-[150%];
+  }
+  .small {
+    @apply font-normal text-[14px] md:text-[14px] leading-[150%];
   }
 }

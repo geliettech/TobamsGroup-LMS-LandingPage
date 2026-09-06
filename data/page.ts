@@ -90,3 +90,34 @@ export const THubItems = [
   "Communication Skills",
   "Business Model",
 ];
+
+export const testimonials = [
+  {
+    name: "Aisha Yusuf",
+    role: "Founder, CraftHub NG",
+    avatar: "/images/avatar_1.png",
+    content:
+      "Working with Tobams Group on our website was a breeze. They understood our vision and transformed it into a beautiful online space. Highly recommend their Website Design service!",
+  },
+  {
+    name: "David Okafor",
+    role: "CEO, TechFlow Africa",
+    avatar: "/images/avatar_2.png",
+    content:
+      "Tobams Group delivered exactly what we needed. The process was smooth, professional, and the final product exceeded our expectations.",
+  },
+  {
+    name: "Chidinma Eze",
+    role: "Founder, Bloom Africa",
+    avatar: "/images/avatar_3.png",
+    content:
+      "The team understood our brand from day one. They created a beautiful digital experience that our customers absolutely love.",
+  },
+  {
+    name: "Michael Adeyemi",
+    role: "Product Lead, Paystack",
+    avatar: "/images/avatar_4.jpg",
+    content:
+      "From design to implementation, Tobams Group was incredibly easy to work with. They were responsive, thoughtful, and delivered great results.",
+  },
+];
