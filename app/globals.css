@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #151515;
-  --card: oklch(1 0 0);
+  --card: #f9f9f9;
   --card-foreground: oklch(0.145 0 0);
   --primary: #571244;
   --primary-foreground: #ffffff;
@@ -15,7 +15,6 @@
   --muted-foreground: oklch(0.556 0 0);
   --accent: #696969;
   --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
   --border: #ddd0da;
   --input: #ffffff1a;
   --ring: oklch(0.708 0 0);
@@ -39,7 +38,6 @@
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
-  --color-destructive: var(--destructive);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
@@ -73,13 +71,16 @@
   .h-num {
     @apply text-[20px] md:text-[40px]  font-semibold leading-[150%] tracking-[3%];
   }
+  .h-semibold {
+    @apply text-[20px] md:text-[40px]  font-semibold leading-[130%];
+  }
   .h1 {
     @apply font-bold text-[24px] md:text-[56px] leading-[130%];
   }
-   .h3 {
+  .h3 {
     @apply font-semibold text-[24px] md:text-[32px] leading-[130%];
   }
-    .h5 {
+  .h5 {
     @apply font-semibold text-[20px] md:text-[20px] leading-[130%];
   }
   .h6-bold {

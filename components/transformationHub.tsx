@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { Button } from "./ui/button";
-import { ArrowUpRight, Zap } from "lucide-react";
+import {  Zap } from "lucide-react";
 import { THubItems } from "@/data/page";
 import { Badge } from "./ui/badge";
+import LearnMoreBtn from "./learnMoreBtn";
 
 const TransformationHub = () => {
   return (
@@ -44,15 +44,11 @@ const TransformationHub = () => {
                     className="h-15 bg-background w-full rounded-[12px] justify-start! p-4 hover:bg-background! hover:text-foreground gap-2.5"
                   >
                     <Zap className="fill-[#EF435333] shrink-0 stroke-0.5 stroke-primary w-7 h-7" />
-
                     <span className="h6-normal text-left">{item}</span>
                   </Badge>
                 ))}
               </div>
-              <Button className="py-[10.5px] px-6 h-12 w-43.25 rounded-lg h6 flex items-center shrink-0">
-                <span className="">Learn More</span>
-                <ArrowUpRight size={24} />
-              </Button>
+              <LearnMoreBtn />
             </div>
           </div>
         </div>

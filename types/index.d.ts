@@ -8,3 +8,8 @@ export type NavItem = {
   href: string;
   dropdown?: DropdownItem[];
 };
+
+export type ConsultantProps = {
+    title: string;
+    desc: string;
+}

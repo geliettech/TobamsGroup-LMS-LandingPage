@@ -1,10 +1,9 @@
 import Image from "next/image";
-import { Button } from "./ui/button";
-import { ArrowUpRight } from "lucide-react";
+import LearnMoreBtn from "./learnMoreBtn";
 
 const LMSBlock = () => {
   return (
-    <div className="py-10 bg-muted/20">
+    <div className="py-10 bg-card">
       <div className="flex flex-wrap justify-center items-center gap-6 md:gap-20 w-full min-h-166 bg-muted py-12 px-6 md:px-16">
         {/* Heading - appears first on mobile */}
         <div className="w-full md:hidden">
@@ -28,7 +27,6 @@ const LMSBlock = () => {
           <h3 className="hidden md:block h-num text-primary text-left">
             Learning Management System
           </h3>
-
           <div className="bg-[#5712441A] p-6 flex flex-col gap-5 rounded-[8px]">
             <p className="h6-normal">
               TG Academy is a hub of knowledge and skill-building resources
@@ -55,11 +53,7 @@ const LMSBlock = () => {
               </ul>
             </div>
           </div>
-
-          <Button className="py-[10.5px] px-6 h-12 w-43.25 rounded-lg h6 flex items-center shrink-0">
-            <span className="">Learn More</span>
-            <ArrowUpRight size={24} />
-          </Button>
+          <LearnMoreBtn />
         </div>
       </div>
     </div>
