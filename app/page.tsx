@@ -1,5 +1,4 @@
-import Booking from "@/components/booking";
-import CTA from "@/components/CTA";
+import CallToAction from "@/components/callToAction";
 import Frame from "@/components/frame";
 import Hero from "@/components/hero";
 import LMSBlock from "@/components/LMSBlock";
@@ -59,10 +58,9 @@ export default function Home() {
       </div>
       <MDProgram />
       <TransformationHub />
-      <TrainingConsultant/>
-      <Booking />
+      <TrainingConsultant />
+      <CallToAction />
       <Testimonials />
-      <CTA />
     </div>
   );
 }
