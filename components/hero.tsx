@@ -11,7 +11,7 @@ const Hero = () => {
           WHAT WE DO
         </Button>
         <h1 className="h1">Training and Development</h1>
-        <p className="h6">
+        <p className="h6 w-full max-w-269.25">
           Our comprehensive range of programs and resources is designed to
           enhance skills, broaden knowledge, and propel careers forward in
           today's ever-evolving landscape.

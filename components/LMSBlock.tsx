@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const LMSBlock = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 bg-muted/20">
       <div className="flex flex-wrap justify-center items-center gap-6 md:gap-20 w-full min-h-166 bg-muted py-12 px-6 md:px-16">
         {/* Heading - appears first on mobile */}
         <div className="w-full md:hidden">
