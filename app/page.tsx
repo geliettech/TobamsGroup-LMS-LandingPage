@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import LMSBlock from "@/components/LMSBlock";
 import MDProgram from "@/components/MDProgram";
 import Testimonials from "@/components/testimonials";
+import TrainingConsultant from "@/components/trainingConsultant";
 import TransformationHub from "@/components/transformationHub";
 
 export default function Home() {
@@ -58,6 +59,7 @@ export default function Home() {
       </div>
       <MDProgram />
       <TransformationHub />
+      <TrainingConsultant/>
       <Booking />
       <Testimonials />
       <CTA />
