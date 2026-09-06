@@ -3,21 +3,21 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #DDD0DA;
+  --background: #ddd0da;
   --foreground: #151515;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --primary: #571244;
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: #EF4353;
+  --secondary: #ef4353;
   --secondary-foreground: oklch(0.205 0 0);
-  --muted: #FFFFFF;
+  --muted: #ffffff;
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #DDD0DA;
-  --input: oklch(0.922 0 0);
+  --border: #ddd0da;
+  --input: #ffffff1a;
   --ring: oklch(0.708 0 0);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
@@ -66,14 +66,21 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
+    @apply font-nunito;
   }
 }
-@layer utilities{
-  .h6{
-@apply font-semibold text-[18px] leading-[150%]
+@layer utilities {
+  .h1 {
+    @apply font-bold text-[24px] md:text-[56px] leading-[130%];
   }
-   .h6-normal{
-@apply font-normal text-[18px] leading-[150%]
+
+  .h6 {
+    @apply font-semibold text-[14px] md:text-[18px] leading-[150%];
+  }
+  .h6-normal {
+    @apply font-normal text-[18px] leading-[150%];
+  }
+  .base-semibold {
+    @apply font-semibold text-[14px] leading-[150%];
   }
 }
