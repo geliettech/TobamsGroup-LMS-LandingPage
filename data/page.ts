@@ -75,3 +75,18 @@ export const navigation: NavItem[] = [
     href: "/book-a-consultant",
   },
 ];
+
+export const MDPItems = [
+  "Enhanced Leadership Skills",
+  "Improved Employee Engagement",
+  "Stronger Organisational Culture",
+  "Sustainable Growth",
+];
+export const THubItems = [
+  "Strategic Career Guidance",
+  "Leadership Development",
+  "CV Development",
+  "Sustainability Leadership",
+  "Communication Skills",
+  "Business Model",
+];

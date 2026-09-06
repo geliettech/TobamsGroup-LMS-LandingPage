@@ -1,18 +1,12 @@
 import Image from "next/image";
-import React from "react";
 import { Badge } from "./ui/badge";
 import { Zap } from "lucide-react";
-const MDPItems = [
-  "Enhanced Leadership Skills",
-  "Improved Employee Engagement",
-  "Stronger Organisational Culture",
-  "Sustainable Growth",
-];
+import { MDPItems } from "@/data/page";
 
 const MDProgram = () => {
   return (
     <div className="p-6 md:p-16 min-h-211.75 w-full gap-6 md:gap-10 bg-muted/20">
-      <div className="bg-[#2C0922]  min-h-175.75 rounded-[20px] p-5 md:p-10">
+      <div className="bg-[#2C0922]  min-h-175.75  rounded-[16px] md:rounded-[20px] p-5 md:p-10">
         <div className="flex flex-wrap min-h-159.75 gap-5 md:gap-12">
           {/* Heading - appears first on mobile */}
           <div className="w-full md:hidden">
@@ -52,7 +46,7 @@ const MDProgram = () => {
                 <Badge
                   key={item}
                   variant="ghost"
-                  className="h-10 bg-[#8F6182] w-full rounded-[8px] justify-start! py-1 px-2 hover:bg-[#8F6182]! hover:text-primary-foreground"
+                  className="h-10 bg-[#8F6182] w-full rounded-[8px] justify-start! gap-2.5 py-1 px-2 hover:bg-[#8F6182]! hover:text-primary-foreground"
                 >
                   <Zap
                     className="fill-primary-foreground shrink-0"
