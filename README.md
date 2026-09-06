@@ -89,8 +89,6 @@ TobamsGroup-LMS-LandingPage/
 └── README.md
 ```
 
-````
-
 > The exact structure may vary depending on the implementation and subsequent project updates.
 
 ---
@@ -132,7 +130,6 @@ Using npm:
 ```bash
 npm install
 ```
-
 
 ## 4. Start the development server
 
@@ -196,20 +193,20 @@ Repeated UI elements are implemented using reusable components and data-driven r
 For example, instead of manually creating multiple similar Frame layout:
 
 ```tsx
- <Frame
-            heading="Capacity Development"
-            wrapClassName="flex-row-reverse"
-            src="/images/training_3.jpg"
-            description="At Tobams Group, we empower individuals and organizations through tailored training programs, expert-led workshops, and personalized mentorship. We are committed to your success and growth. We are dedicated to providing a comprehensive suite of benefits designed to foster your development and success:"
-            items={[
-              "Tailored Training Programs",
-              "Expert-Led Workshops",
-              "Personalized Mentorship",
-              "Technical Skills Enhancement",
-              "Collaborative Learning Environment",
-              "Ongoing Support and Resources",
-            ]}
-          />
+<Frame
+  heading="Capacity Development"
+  wrapClassName="flex-row-reverse"
+  src="/images/training_3.jpg"
+  description="At Tobams Group, we empower individuals and organizations through tailored training programs, expert-led workshops, and personalized mentorship. We are committed to your success and growth. We are dedicated to providing a comprehensive suite of benefits designed to foster your development and success:"
+  items={[
+    "Tailored Training Programs",
+    "Expert-Led Workshops",
+    "Personalized Mentorship",
+    "Technical Skills Enhancement",
+    "Collaborative Learning Environment",
+    "Ongoing Support and Resources",
+  ]}
+/>
 ```
 
 This makes it easier to add, remove, or update content without modifying the underlying UI structure.
@@ -386,8 +383,3 @@ This project is intended for the Tobams Group LMS project Assessment.
 **GelietTech**
 
 GitHub: [@geliettech](https://github.com/geliettech)
-
-
-
-
-````
