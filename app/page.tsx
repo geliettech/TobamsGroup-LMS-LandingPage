@@ -3,7 +3,7 @@ import CTA from "@/components/CTA";
 import Frame from "@/components/frame";
 import Hero from "@/components/hero";
 import LMSBlock from "@/components/LMSBlock";
-import ManagementDavelopmentProgram from "@/components/managementDavelopmentProgram";
+import MDProgram from "@/components/MDProgram";
 import Testimonials from "@/components/testimonials";
 import TransformationHub from "@/components/transformationHub";
 
@@ -56,7 +56,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <ManagementDavelopmentProgram />
+      <MDProgram />
       <TransformationHub />
       <Booking />
       <Testimonials />
