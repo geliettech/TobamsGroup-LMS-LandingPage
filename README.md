@@ -2,13 +2,9 @@
 
 A modern, responsive landing page for the **Tobams Group Learning Management System (LMS)**. The project is designed to provide learners with a clear introduction to the LMS, its learning offerings, and the value it provides.
 
-## 🚀 Live Demo
-
-**[Tobams Group LMS](https://tobamsgroup-lms-landingpage.vercel.app/)**
-
-## 💻 GitHub Repository
-
-**[View the source code on GitHub](https://github.com/geliettech/TobamsGroup-LMS-LandingPage)**
+- **[Figma Design](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0)**
+- **[Live Demo](https://tobamsgroup-lms-landingpage.vercel.app/)**
+- **[GitHub Repo](https://github.com/geliettech/TobamsGroup-LMS-LandingPage)**
 
 ---
 
@@ -31,7 +27,6 @@ The goal was to translate the provided design into a functional web interface wh
 
 ### Frontend
 
-- **React.js** – Component-based UI development
 - **Next.js** – Application framework and routing
 - **TypeScript** – Static typing and improved developer experience
 - **Tailwind CSS** – Utility-first styling and responsive design
@@ -40,22 +35,6 @@ The goal was to translate the provided design into a functional web interface wh
 
 - **Git & GitHub** – Version control and source code management
 - **Vercel** – Deployment and hosting
-
----
-
-## ✨ Key Features
-
-- Responsive LMS landing page
-- Mobile, tablet, and desktop layouts
-- Hero section with clear call-to-action
-- Course/learning-focused sections
-- Reusable UI components
-- Responsive navigation
-- Structured content sections
-- Consistent typography and spacing
-- Interactive UI elements
-- Optimized frontend assets
-- Cross-browser responsive design
 
 ---
 
@@ -74,10 +53,9 @@ TobamsGroup-LMS-LandingPage/
 │   │   └── ...
 │   │
 │   ├── components/
-│   │   ├── Navbar
-│   │   ├── Hero
-│   │   ├── Courses
-│   │   ├── Footer
+│   │   ├── header.tsx
+│   │   ├── hero.tsx
+│   │   ├── Footer.tsx
 │   │   └── ...
 │   │
 │   └── ...
@@ -93,25 +71,23 @@ TobamsGroup-LMS-LandingPage/
 
 ---
 
-# ⚙️ Setup & Installation
+## ⚙️ Setup & Installation
 
-## Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
 - Node.js 18+
 - npm, yarn, pnpm, or another compatible package manager
 - Git
-
-You can verify your Node.js installation with:
+  You can verify your Node.js installation with:
 
 ```bash
 node -v
 ```
 
----
 
-## 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/geliettech/TobamsGroup-LMS-LandingPage.git
@@ -143,26 +119,13 @@ The application should now be available at:
 http://localhost:3000
 ```
 
-## 5. Build for production
-
-```bash
-npm run build
-```
-
-## 6. Run the production build
-
-```bash
-npm start
-```
-
 ---
 
-# 🎨 Design Decisions
+## 🎨 Design Decisions
 
-## Component-Based Architecture
+### Component-Based Architecture
 
 The interface is broken into reusable React components rather than implementing the entire page as one large component.
-
 This makes the codebase:
 
 - Easier to maintain
@@ -171,9 +134,7 @@ This makes the codebase:
 - More consistent across sections
 - Less prone to duplicated UI logic
 
----
-
-## Responsive-First Design
+### Responsive-First Design
 
 The landing page was designed to work across:
 
@@ -184,9 +145,7 @@ The landing page was designed to work across:
 
 Responsive Tailwind CSS utilities were used to adapt layouts, typography, spacing, and navigation according to the available screen size.
 
----
-
-## Reusable UI Patterns
+### Reusable UI Patterns
 
 Repeated UI elements are implemented using reusable components and data-driven rendering where appropriate.
 
@@ -211,9 +170,7 @@ For example, instead of manually creating multiple similar Frame layout:
 
 This makes it easier to add, remove, or update content without modifying the underlying UI structure.
 
----
-
-## TypeScript
+### TypeScript
 
 TypeScript was used to provide stronger type safety and improve maintainability.
 
@@ -224,9 +181,7 @@ Using explicit types for component props and data structures helps:
 - Make component contracts clearer
 - Reduce unexpected runtime errors
 
----
-
-## Tailwind CSS
+### Tailwind CSS
 
 Tailwind CSS was selected for styling because it allows responsive designs to be built efficiently while keeping styles close to the components they affect.
 
@@ -238,9 +193,7 @@ It also helps maintain consistent:
 - Layout behavior
 - Component styling
 
----
-
-## Performance Considerations
+### Performance Considerations
 
 The implementation considers frontend performance through:
 
@@ -253,19 +206,7 @@ The implementation considers frontend performance through:
 
 ---
 
-# 🌐 Deployment
-
-The application is deployed using **Vercel**.
-
-### Production URL
-
-**[https://tobamsgroup-lms-landingpage.vercel.app/](https://tobamsgroup-lms-landingpage.vercel.app/)**
-
-Deployment can be reproduced by connecting the GitHub repository to Vercel and configuring the appropriate build settings.
-
----
-
-# 🐛 Known Issues
+## 🐛 Known Issues
 
 The current implementation is primarily focused on the landing-page experience.
 
@@ -281,7 +222,7 @@ These can be addressed when the landing page is connected to the production LMS 
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 Potential future improvements include:
 
@@ -298,20 +239,7 @@ Potential future improvements include:
 
 ---
 
-# 📱 Responsive Design
-
-The interface is designed to provide a consistent experience across different viewport sizes.
-
-| Device     | Support |
-| ---------- | ------- |
-| 📱 Mobile  | ✅      |
-| 📱 Tablet  | ✅      |
-| 💻 Laptop  | ✅      |
-| 🖥️ Desktop | ✅      |
-
----
-
-# 🔐 Security
+## 🔐 Security
 
 Because this project is primarily a frontend landing page, there is currently no sensitive authentication or authorization logic implemented in the client.
 
@@ -327,59 +255,12 @@ NEXT_PUBLIC_API_URL=your_public_api_url
 
 ---
 
-# 🤝 Contributing
-
-Contributions and improvements are welcome.
-
-### 1. Fork the repository
-
-```bash
-git fork https://github.com/geliettech/TobamsGroup-LMS-LandingPage.git
-```
-
-### 2. Create a feature branch
-
-```bash
-git checkout -b feature/your-feature
-```
-
-### 3. Make your changes
-
-Implement and test your changes locally.
-
-### 4. Commit your changes
-
-```bash
-git commit -m "feat: add your feature"
-```
-
-### 5. Push the branch
-
-```bash
-git push origin feature/your-feature
-```
-
-### 6. Open a Pull Request
-
-Create a Pull Request describing the changes and why they were made.
-
----
-
-# 📄 License
+## 📄 License
 
 This project is intended for the Tobams Group LMS project Assessment.
 
 ---
 
-## 🔗 Links
-
-- **Live Demo:** [https://tobamsgroup-lms-landingpage.vercel.app/](https://tobamsgroup-lms-landingpage.vercel.app/)
-- **GitHub:** [https://github.com/geliettech/TobamsGroup-LMS-LandingPage](https://github.com/geliettech/TobamsGroup-LMS-LandingPage)
-
----
-
 ## 👩🏽‍💻 Author
 
-**GelietTech**
-
-GitHub: [@geliettech](https://github.com/geliettech)
+[@geliettech](https://github.com/geliettech)

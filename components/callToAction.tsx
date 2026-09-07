@@ -9,7 +9,7 @@ const CallToAction = () => {
         <br />
         See how we can help.
       </p>
-      <Button className="h6 bg-primary-foreground text-primary rounded-lg py-[11.5px] px-5.5 h-11.25 w-48.25">
+      <Button type="button" className="h6 bg-primary-foreground text-primary rounded-lg py-[11.5px] px-5.5 h-11.25 w-48.25">
         Book a Consultation
       </Button>
     </div>

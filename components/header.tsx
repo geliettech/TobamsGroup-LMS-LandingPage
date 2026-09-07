@@ -47,7 +47,7 @@ const Header = () => {
 
           {/* Desktop Actions */}
           <div className="hidden items-center gap-3 md:flex">
-            <Button
+            <Button type="button"
               className={cn("h-11 rounded-lg", "w-36", "lg:h-12 lg:w-41.75")}
             >
               <div className="flex h-8 w-8 items-center justify-center rounded-full bg-muted">
@@ -59,7 +59,7 @@ const Header = () => {
               <ChevronDown className="h-5 w-5" />
             </Button>
 
-            <Button
+            <Button type="button"
               variant="secondary"
               className={cn(
                 "h-11 rounded-lg border h6 text-background",
@@ -72,7 +72,7 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <Button
+          <Button type="button"
             variant="ghost"
             size="icon"
             className="md:hidden bg-foreground text-background"
@@ -247,7 +247,7 @@ const Header = () => {
 
             {/* Mobile Actions */}
             <div className="flex flex-col gap-3 pt-5 sm:flex-row">
-              <Button className="h-12 w-full rounded-lg sm:flex-1">
+              <Button className="h-12 w-full rounded-lg sm:flex-1" type="button">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-muted">
                   <User className="h-3 w-4 text-primary" />
                 </div>
@@ -257,7 +257,7 @@ const Header = () => {
                 <ChevronDown className="h-5 w-5" />
               </Button>
 
-              <Button
+              <Button type="button"
                 variant="secondary"
                 className="h-12 w-full rounded-lg border h6 text-background sm:flex-1"
               >
