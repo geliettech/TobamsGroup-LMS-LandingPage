@@ -2,8 +2,8 @@
 
 A modern, responsive landing page for the **Tobams Group Learning Management System (LMS)**. The project is designed to provide learners with a clear introduction to the LMS, its learning offerings, and the value it provides.
 
-- **[Figma Design](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0)**
-- **[Live Demo](https://tobamsgroup-lms-landingpage.vercel.app/)**
+- **[Figma Design](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=2GdKWsCnpIxflaec-0)**
+- **[Live Demo](https://tobamsgroup-lms-landingpage.vercel.app)**
 - **[GitHub Repo](https://github.com/geliettech/TobamsGroup-LMS-LandingPage)**
 
 ---
@@ -85,7 +85,6 @@ Make sure you have the following installed:
 ```bash
 node -v
 ```
-
 
 ### 1. Clone the repository
 
