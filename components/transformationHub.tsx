@@ -6,7 +6,7 @@ import LearnMoreBtn from "./learnMoreBtn";
 
 const TransformationHub = () => {
   return (
-    <div className="min-h-195 p-6 md:p-16 gap-10">
+    <section className="min-h-195 p-6 md:p-16 gap-10">
       <div className="min-h-163 bg-[#EF435333] rounded-[12px] md:rounded-[16px] p-6 md:p-10 gap-16">
         <div className="space-y-6">
           <div className="space-y-2 italic">
@@ -53,7 +53,7 @@ const TransformationHub = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -12,7 +12,7 @@ export default function Home() {
     <div className="">
       <Hero />
       <LMSBlock />
-      <div className="bg-muted/20 px-4 md:px-0">
+      <section className="bg-muted/20 px-4 md:px-0">
         <div className="bg-background min-h-374.25 rounded-t-[16px] py-4 md:p-16 space-y-14 md:space-y-30">
           <Frame
             heading="Corporate Trainings"
@@ -55,7 +55,7 @@ export default function Home() {
             ]}
           />
         </div>
-      </div>
+      </section>
       <MDProgram />
       <TransformationHub />
       <TrainingConsultant />

@@ -121,3 +121,44 @@ export const testimonials = [
       "From design to implementation, Tobams Group was incredibly easy to work with. They were responsive, thoughtful, and delivered great results.",
   },
 ];
+export const footerSections = [
+  {
+    title: "What We Do",
+    links: [
+      "Sustainability Services",
+      "Strategy Planning and Implementation",
+      "Tech Talent Solutions",
+      "Training and Development",
+      "IT Consulting Services",
+      "Social Impact",
+      "Talent Recruitment",
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      "About",
+      "Jobs",
+      "Projects",
+      "Our Founder",
+      "Business Model",
+      "The Team",
+      "Contact Us",
+      "Blog",
+      "FAQs",
+      "Testimonials",
+    ],
+  },
+  {
+    title: "Solution",
+    links: [
+      "Tobams Group Academy",
+      "Help a Tech Talent",
+      "Campus Ambassadors Program",
+      "Join Our Platform",
+      "Pricing",
+      "Book a Consultation",
+      "Join Our Slack Community",
+    ],
+  },
+];

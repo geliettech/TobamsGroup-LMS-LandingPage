@@ -3,7 +3,7 @@ import LearnMoreBtn from "./learnMoreBtn";
 
 const TrainingConsultant = () => {
   return (
-    <div className="bg-card py-10 min-h-180.5 w-full">
+    <section className="bg-card py-10 min-h-180.5 w-full">
       <div className="min-h-160.5 py-12 px-6 md:px-16 bg-muted gap-2.5">
         <div className="space-y-8">
           <div className="space-y-5">
@@ -49,7 +49,7 @@ const TrainingConsultant = () => {
           <LearnMoreBtn />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

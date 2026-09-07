@@ -3,7 +3,7 @@ import LearnMoreBtn from "./learnMoreBtn";
 
 const LMSBlock = () => {
   return (
-    <div className="py-10 bg-card">
+    <section className="py-10 bg-card">
       <div className="flex flex-wrap justify-center items-center gap-6 md:gap-20 w-full min-h-166 bg-muted py-12 px-6 md:px-16">
         {/* Heading - appears first on mobile */}
         <div className="w-full md:hidden">
@@ -56,7 +56,7 @@ const LMSBlock = () => {
           <LearnMoreBtn />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

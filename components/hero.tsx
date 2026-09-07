@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <div className="h-79.25 md:h-127.75 w-full bg-[url('/images/hero_image.jpg')] bg-cover bg-center relative after:absolute after:inset-0 after:bg-[#000000B2] flex items-center justify-center">
+    <section className="h-79.25 md:h-127.75 w-full bg-[url('/images/hero_image.jpg')] bg-cover bg-center relative after:absolute after:inset-0 after:bg-[#000000B2] flex items-center justify-center">
       <div className="relative z-10 text-background flex flex-col justify-center items-center text-center gap-6 md:gap-10 py-10 px-6 w-full max-w-[1312px] h-[287px]">
         <Button
           variant="ghost"
@@ -20,7 +20,7 @@ const Hero = () => {
           Book a Consultation
         </Button>
       </div>
-    </div>
+    </section>
   );
 };
 

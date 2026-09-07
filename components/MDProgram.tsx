@@ -5,7 +5,7 @@ import { MDPItems } from "@/data/page";
 
 const MDProgram = () => {
   return (
-    <div className="p-6 md:p-16 min-h-211.75 w-full gap-6 md:gap-10 bg-card">
+    <section className="p-6 md:p-16 min-h-211.75 w-full gap-6 md:gap-10 bg-card">
       <div className="bg-[#2C0922]  min-h-175.75  rounded-[16px] md:rounded-[20px] p-5 md:p-10">
         <div className="flex flex-wrap min-h-159.75 gap-5 md:gap-12">
           {/* Heading - appears first on mobile */}
@@ -61,7 +61,7 @@ const MDProgram = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
