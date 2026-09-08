@@ -78,7 +78,7 @@ TobamsGroup-LMS-LandingPage/
 Make sure you have the following installed:
 
 - Node.js 18+
-- npm, yarn, pnpm, or another compatible package manager
+- npm
 - Git
   You can verify your Node.js installation with:
 
