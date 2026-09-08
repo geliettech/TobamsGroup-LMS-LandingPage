@@ -92,7 +92,6 @@ const Footer = () => {
               <div className="flex items-center flex-col md:flex-row gap-6">
                 <div className="">
                   <h6 className="base-semibold text-secondary">
-                    {" "}
                     United Kingdom
                   </h6>
                   <p className="base">
@@ -139,21 +138,30 @@ const Footer = () => {
         <hr className="w-full border-0 border-t-2 border-[#2A1B27] my-6" />
 
         {/* Bottom */}
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-3 shrink-0 flex-wrap">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-3 shrink-0">
           <p className="text-[14px] font-light leading-9">
             Copyright © Tobams Group, 2024. All rights reserved.
           </p>
 
-          <div className="flex items-center gap-6 text-[14px] font-light leading-9">
-            <Link href="/" className="underline underline-offset-2">
+          <div className="flex justify-center gap-x-6 gap-y-0 text-[14px] font-light leading-9 flex-wrap">
+            <Link
+                href="/"
+                className="underline underline-offset-2 order-3 md:order-1"
+            >
               Terms and Conditions
             </Link>
 
-            <Link href="/" className="underline underline-offset-2">
+            <Link
+                href="/"
+                className="underline underline-offset-2 order-1 md:order-2"
+            >
               Privacy Policy
             </Link>
 
-            <Link href="/" className="underline underline-offset-2">
+            <Link
+                href="/"
+                className="underline underline-offset-2 order-2 md:order-3"
+            >
               Cookies Policy
             </Link>
           </div>
