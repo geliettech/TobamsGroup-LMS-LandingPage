@@ -149,7 +149,7 @@ const Header = () => {
 
                         return (
                           <Link
-                            key={dropdownItem.href}
+                            key={dropdownItem.label}
                             href={dropdownItem.href}
                             className={cn(
                               "block rounded-lg px-3 py-2.5 text-sm",
@@ -224,7 +224,7 @@ const Header = () => {
 
                           return (
                             <Link
-                              key={dropdownItem.href}
+                              key={dropdownItem.label}
                               href={dropdownItem.href}
                               onClick={() => setMobileMenuOpen(false)}
                               className={cn(
