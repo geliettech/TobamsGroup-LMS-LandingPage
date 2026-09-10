@@ -6,73 +6,73 @@ export const navigation: NavItem[] = [
     dropdown: [
       {
         label: "Who We Are",
-        href: "/about",
+        href: "#",
       },
       {
         label: "Our Story",
-        href: "/about/our-story",
+        href: "#",
       },
       {
         label: "Our Team",
-        href: "/about/team",
+        href: "#",
       },
     ],
   },
   {
     label: "What We Do",
-    href: "/what-we-do",
+    href: "#",
     dropdown: [
       {
         label: "Our Services",
-        href: "/what-we-do",
+        href: "#",
       },
       {
         label: "Consulting",
-        href: "/what-we-do/consulting",
+        href: "#",
       },
       {
         label: "Technology",
-        href: "/what-we-do/technology",
+        href: "#",
       },
     ],
   },
   {
     label: "Jobs",
-    href: "/jobs",
+    href: "#",
     dropdown: [
       {
         label: "Open Positions",
-        href: "/jobs",
+        href: "#",
       },
       {
         label: "Internships",
-        href: "/jobs/internships",
+        href: "#",
       },
       {
         label: "Join Our Team",
-        href: "/jobs/join-us",
+        href: "#",
       },
     ],
   },
   {
     label: "Projects",
-    href: "/projects",
+    href: "#",
   },
   {
     label: "TG Academy",
-    href: "/tg-academy",
+    href: "#",
   },
   {
     label: "Strategic Partnership",
-    href: "/strategic-partnership",
+    href: "#",
   },
   {
     label: "Pricing",
-    href: "/pricing",
+    href: "#",
   },
   {
     label: "Book a Consultant",
-    href: "/book-a-consultant",
+    href: "#",
   },
 ];
 
